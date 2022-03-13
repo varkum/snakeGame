@@ -1,0 +1,32 @@
+body {
+  overflow: hidden;
+}
+
+.grid {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.grid div {
+  width: 40px;
+  height: 40px;
+}
+.snake {
+  background: blue;
+}
+
+.apple {
+  background: red;
+}
+
+#msg {
+  display: block;
+}
